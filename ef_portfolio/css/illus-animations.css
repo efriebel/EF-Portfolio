@@ -1,0 +1,433 @@
+/*
+===================================
+animation | small 1
+===================================
+ */
+/*SHINE OUTWARD*/
+.illu-small1-lights-shine-outward{
+    animation: IS1ShineOutward 1.5s linear infinite alternate;
+}
+@keyframes IS1ShineOutward{
+    from {
+        transform: rotate(5deg);
+        transform-origin: center;
+    }
+    to {
+        transform: rotate(-5deg);
+        transform-origin: center;
+    }
+}
+/*MAIN BODY*/
+.illu-small1-main-body{
+    animation: IS1MainBody 1.5s ease-in-out infinite alternate;
+}
+@keyframes IS1MainBody{
+    from {
+        transform: scale(100%);
+        transform-origin: center;
+    }
+    to {
+        transform: scale(110%);
+        transform-origin: center;
+    }
+}
+/*STARS*/
+.illu-small1-stars{
+    animation: IS1Stars 1s ease-in-out infinite alternate;
+}
+@keyframes IS1Stars {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.25;
+    }
+}
+/*SPECKS WHITE*/
+.illu-small1-bg-specks-white{
+    animation: IS1SpecksWhite 0.75s ease-in-out infinite alternate;
+}
+@keyframes IS1SpecksWhite {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SPECKS LIGHT*/
+.illu-small1-bg-specks-light{
+    animation: IS1SpecksLight 0.75s ease-in-out infinite alternate;
+    animation-delay: 0.25s;
+}
+@keyframes IS1SpecksLight {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+===================================
+animation | small 2
+===================================
+ */
+/*BLACK HOLE ORBITS*/
+.illu-small2-black-hole-orbits{
+    animation: IS2BlackHoleOrbits 2s ease-in-out infinite alternate;
+}
+@keyframes IS2BlackHoleOrbits {
+    from {
+        transform: scale(100%);
+        transform-origin: 362px 730px;
+    }
+    to {
+        transform: scale(115%);
+        transform-origin: 362px 730px;
+    }
+}
+/*BLACK HOLE CENTER*/
+.illu-small2-black-hole-center{
+    animation: IS2BlackHoleCenter 1.5s ease-in-out infinite alternate;
+}
+@keyframes IS2BlackHoleCenter {
+    from {
+        transform: scale(100%);
+        transform-origin: 362px 730px;
+    }
+    to {
+        transform: scale(110%);
+        transform-origin: 362px 730px;
+    }
+}
+/*BLACK HOLE STARS*/
+.illu-small2-black-hole-stars{
+    animation: IS2BlackHoleStars 1s ease-in-out infinite alternate;
+}
+@keyframes IS2BlackHoleStars{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/*BLACK HOLE PARTICLES PURPLE*/
+.illu-small2-black-hole-particles-purple{
+    animation: IS2BlackHolePPurple 1s ease-in-out infinite alternate;
+}
+@keyframes IS2BlackHolePPurple {
+    from{
+        transform: translateX(0);
+        transform-origin: 362px 730px;
+    }
+    to{
+        transform: translateX(20px);
+        transform-origin: 362px 730px;
+    }
+}
+/*BLACK HOLE PARTICLES ORANGE*/
+.illu-small2-black-hole-particles-orange{
+    animation: IS2BlackHolePOrange 1.25s ease-in-out infinite alternate;
+}
+@keyframes IS2BlackHolePOrange {
+    from{
+        transform: translateY(0);
+        transform-origin: 362px 730px;
+    }
+    to{
+        transform: translateY(-20px);
+        transform-origin: 362px 730px;
+    }
+}
+/*BLACK HOLE PARTICLES RED*/
+.illu-small2-black-hole-particles-red{
+    animation: IS2BlackHolePRed 1s ease-in-out infinite alternate;
+}
+@keyframes IS2BlackHolePRed {
+    from{
+        transform: translate(0, 0);
+        transform-origin: 362px 730px;
+    }
+    to{
+        transform: translate(-15px, -15px);
+        transform-origin: 362px 730px;
+    }
+}
+
+/*GALAXY ORBITS*/
+.illu-small2-galaxy-orbits{
+    animation: IS2GalaxyOrbits 3s ease-in-out infinite alternate;
+}
+@keyframes IS2GalaxyOrbits {
+    from {
+        transform: scale(95%);
+        transform-origin: 454px 301px;
+    }
+    to {
+        transform: scale(115%);
+        transform-origin: 454px 301px;
+    }
+}
+/*GALAXY CENTER*/
+.illu-small2-galaxy-center{
+    animation: IS2GalaxyCenter 1.25s ease-in-out infinite alternate;
+}
+@keyframes IS2GalaxyCenter {
+    from {
+        transform: scale(100%);
+        transform-origin: 454px 301px;
+    }
+    to {
+        transform: scale(110%);
+        transform-origin: 454px 301px;
+    }
+}
+/*GALAXY STARS*/
+.illu-small2-galaxy-stars{
+    animation: IS2GalaxyStars 0.75s ease-in-out infinite alternate;
+}
+@keyframes IS2GalaxyStars{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+/*GALAXY PARTICLES PINK*/
+.illu-small2-galaxy-particles-pink{
+    animation: IS2GalaxyPPink 1s ease-in-out infinite alternate;
+}
+@keyframes IS2GalaxyPPink {
+    from{
+        transform: translateX(0);
+        transform-origin: 362px 730px;
+    }
+    to{
+        transform: translateX(-15px);
+        transform-origin: 362px 730px;
+    }
+}
+/*GALAXY PARTICLES ROSE*/
+.illu-small2-galaxy-particles-rose{
+    animation: IS2GalaxyPRose 1.25s ease-in-out infinite alternate;
+}
+@keyframes IS2GalaxyPRose {
+    from{
+        transform: translateY(0);
+        transform-origin: 362px 730px;
+    }
+    to{
+        transform: translateY(15px);
+        transform-origin: 362px 730px;
+    }
+}
+/*GALAXY PARTICLES WHITE*/
+.illu-small2-galaxy-particles-white{
+    animation: IS2GalaxyPWhite 1s ease-in-out infinite alternate;
+}
+@keyframes IS2GalaxyPWhite {
+    from{
+        transform: translate(0, 0);
+        transform-origin: 362px 730px;
+    }
+    to{
+        transform: translate(10px, 10px);
+        transform-origin: 362px 730px;
+    }
+}
+/*
+===================================
+animation | large
+===================================
+ */
+/*SUN*/
+.illu-large-sun{
+    animation: ILSun 4s ease-in-out infinite normal;
+}
+@keyframes ILSun{
+    25% {
+        transform: translate(0.5%, 0.25%);
+        transform-origin: center;
+    }
+    50%{
+        transform: translate(0.25%, -0.5%);
+        transform-origin: center;
+    }
+    75%{
+        transform: translate(0.25%, 0.25%);
+        transform-origin: center;
+    }
+    100%{
+        transform: translate(0%, 0%);
+        transform-origin: center;
+    }
+
+}
+.illu-large-sun-shine-base{
+    animation: ILSunShineBase 2s linear infinite alternate;
+}
+@keyframes ILSunShineBase {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.illu-large-sun-shine-circles{
+    animation: ILSunShineCircles 0.75s linear infinite alternate;
+}
+@keyframes ILSunShineCircles {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+.illu-large-sun-sparkles{
+    animation: ILSunSparkles 1s linear infinite alternate;
+}
+@keyframes ILSunSparkles {
+    from {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+    to {
+        transform: rotate(15deg);
+        transform-origin: center;
+    }
+}
+/*MERCURY*/
+.illu-large-mercury{
+    animation: ILMercury 2.5s ease-in-out infinite alternate;
+}
+@keyframes ILMercury{
+    from{
+        transform: translate(-25px, -6px);
+    }
+    to{
+        transform: translate(0%, 0%);
+    }
+}
+/*VENUS*/
+.illu-large-venus{
+    animation: ILVenus 2.5s ease-in-out infinite alternate;
+    animation-delay: 0.25s;
+}
+@keyframes ILVenus {
+    from{
+        transform: translate(0%, 0%);
+    }
+    to{
+        transform: translate(40px, -25px);
+    }
+}
+/*EARTH*/
+.illu-large-earth{
+    animation: ILEarth 2.5s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
+}
+@keyframes ILEarth {
+    from{
+        transform: translate(0%, 0%);
+    }
+    to{
+        transform: translate(-40px, 30px);
+    }
+}
+/*MOON*/
+.illu-large-moon{
+    animation: ILMoon 2.5s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
+}
+@keyframes ILMoon {
+    from{
+        transform: translate(0%, 0%);
+    }
+    to{
+        transform: translate(-100px, 80px);
+    }
+}
+/*MARS*/
+.illu-large-mars{
+    animation: ILMars 2.5s ease-in-out infinite alternate;
+    animation-delay: 0.75s;
+}
+@keyframes ILMars {
+    from{
+        transform: translate(40px, 20px);
+    }
+    to{
+        transform: translate(0%, 0%);
+    }
+}
+/*JUPITER*/
+.illu-large-jupiter{
+    animation: ILJupiter 2.5s ease-in-out infinite alternate;
+    animation-delay: 1s;
+}
+@keyframes ILJupiter {
+    from{
+        transform: translate(-20px, -20px);
+    }
+    to{
+        transform: translate(0%, 0%);
+    }
+}
+/*SATURN*/
+.illu-large-saturn{
+    animation: ILSaturn 2.5s ease-in-out infinite alternate;
+    animation-delay: 1.25s;
+}
+@keyframes ILSaturn {
+    from{
+        transform: translate(0%, 0%);
+    }
+    to{
+        transform: translate(20px, -40px);
+    }
+}
+/*URANUS*/
+.illu-large-uranus{
+    animation: ILUranus 2.5s ease-in-out infinite alternate;
+    animation-delay: 1.5s;
+}
+@keyframes ILUranus{
+    from{
+        transform: translate(0%, 0%);
+    }
+    to{
+        transform: translate(-40px, 60px);
+    }
+}
+/*NEPTUNE*/
+.illu-large-neptune{
+    animation: ILNeptune 2.5s ease-in-out infinite alternate;
+    animation-delay: 1.75s;
+}
+@keyframes ILNeptune {
+    from{
+        transform: translate(80px, 30px);
+    }
+    to{
+        transform: translate(0%, 0%);
+    }
+}
+/*COMETS*/
+.illu-large-comets{
+    animation: ILComets 3.5s ease-in-out infinite alternate;
+}
+@keyframes ILComets {
+    from{
+        transform: scale(100%);
+        transform-origin: 803px 462px;
+    }
+    to{
+        transform: scale(125%);
+        transform-origin: 803px 462px;
+    }
+}
